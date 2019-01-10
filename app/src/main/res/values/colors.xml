@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bosMasa">#00f915</color>
+    <color name="doluMasa">#ff0004</color>
+    <color name="secilenMasa">#fffb00</color>
+    <color name="textColor">#080808</color>
+    <color name="etColor">#e1e1e1</color>
+    <color name="btnarkaplan">#f09fe786</color>
+    <color name="arkaplan">#f0eff7ed</color>
+    <color name="koyu">#bad2dc</color>
+    <color name="koyu1">#e1fffb</color>
+    <color name="koyu2">#a1c1bd</color>
+    <color name="textcl">#000000</color>
+    <color name="btnbac">#889982</color>
+
+    <color name="primary">#4CAF50</color>
+    <color name="text_primary">#000000</color>
+    <color name="primary_dark">#388E3C</color>
+    <color name="accent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="color_item_press">#81C784</color>
+</resources>
