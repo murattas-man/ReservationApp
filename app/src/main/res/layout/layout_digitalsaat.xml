@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/dimen_30dp"
+    android:gravity="top|center"
+    android:orientation="vertical">
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_marginBottom="@dimen/dimen_20dp"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <Spinner
+           android:id="@+id/spinnersaat"
+           android:layout_width="180dp"
+           android:paddingLeft="@dimen/dimen_20dp"
+           android:entries="@array/note_saat"
+           android:background="@color/editArka"
+           android:layout_height="70dp" />
+   </LinearLayout>
+
+</LinearLayout>

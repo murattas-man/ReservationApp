@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_5dp">5dp</dimen>
+    <dimen name="dimen_10dp">10dp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+    <dimen name="dimen_30dp">30dp</dimen>
+    <dimen name="dimen_40dp">40dp</dimen>
+    <dimen name="layout12left">55dp</dimen>
+    <dimen name="dimen_45dp">40dp</dimen>
+    <dimen name="dimen_60dp">60dp</dimen>
+    <dimen name="dimen_80dp">80dp</dimen>
+    <dimen name="dimen_160dp">160dp</dimen>
+    <dimen name="dimen_380dp">380dp</dimen>
+    <dimen name="dimen_15dp">15dp</dimen>
+    <dimen name="paddinglefttext">15dp</dimen>
+    <dimen name="btn_20bp">20dp</dimen>
+    <dimen name="btn_30bp">25dp</dimen>
+    <dimen name="btn_40bp">40dp</dimen>
+    <dimen name="btn_50bp">50dp</dimen>
+    <dimen name="txt_48bp">52dp</dimen>
+    <dimen name="txt6_48bp">69dp</dimen>
+    <dimen name="sekrandp">45dp</dimen>
+    <dimen name="sekrandptxt">15dp</dimen>
+    <dimen name="right_35bp">45dp</dimen>
+</resources>

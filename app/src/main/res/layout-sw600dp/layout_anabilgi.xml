@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:id="@+id/linerres"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:gravity="center|top"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/musteriDetay"
+                    android:textColor="@color/editArka"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etNameUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/paddinglefttext"
+                    android:background="@color/editArka"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:lines="2"
+                    android:ems="20"
+                    android:hint="@string/isimful"
+                    android:inputType="textMultiLine"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etTelUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/paddinglefttext"
+                    android:layout_weight="2"
+                    android:background="@color/editArka"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:ems="20"
+                    android:lines="2"
+                    android:hint="@string/tel"
+                    android:digits= "()+0123456789*#"
+                    android:inputType="phone" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/editArka"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/rezDetay"
+                    android:textColor="@color/editArka"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etKisisayisiUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/paddinglefttext"
+                    android:layout_weight="1"
+                    android:background="@color/editArka"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:lines="2"
+                    android:ems="20"
+                    android:hint="@string/kisiSayisi"
+                    android:digits= "0123456789"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvTimeUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:textColorHint="@color/editArka"
+                    android:hint="@string/saat"
+                    />
+
+                <Button
+                    android:id="@+id/btnsaatSec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/editArka"
+                    android:textColor="@color/white"
+                    android:onClick="onTextviewUpClicked"
+                    android:text=""/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="       " />
+
+                <TextView
+                    android:id="@+id/tvDatepicUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:textColorHint="@color/editArka"
+                    android:hint="@string/tarih"
+                    />
+                <Button
+                    android:id="@+id/btndatesec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/editArka"
+                    android:textColor="@color/white"
+                    android:onClick="onTextviewUpClicked"
+                    android:text=""/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etNotesUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/paddinglefttext"
+                    android:layout_weight="3"
+                    android:background="@color/editArka"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:lines="2"
+                    android:ems="20"
+                    android:hint="@string/not"
+                    android:inputType="textMultiLine"
+                    android:minLines="2" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@color/editArka"
+                    android:text="@string/btnUpdate" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          " />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          " />
+                <Button
+                    android:id="@+id/btnDelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@color/editArka"
+                    android:text="@string/btnDelete" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linermasa"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="29dp"
+                android:text="Table No"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btnMasaNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#edecec"
+                android:layout_alignParentTop="true"
+                android:padding="@dimen/dimen_40dp"
+                android:text=""
+                android:textSize="30dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
